@@ -3,7 +3,6 @@
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true,
-    "compilerName": "fsc",
     "compile": {
       "includeFiles": [
         "Program.fs"
@@ -11,7 +10,7 @@
     }
   },
   "tools": {
-    "dotnet-compile-fsc":"1.0.0-preview2-*"
+    "dotnet-compile-fsc":"1.0.0-preview2-020000"
   },
   "frameworks": {
     "netcoreapp1.0": {
